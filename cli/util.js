@@ -133,6 +133,8 @@ function modInstall(install) {
 }
 
 exports.setup = function() {
+    process.stderr.write("Skipping all the CLI installation BS now that CLI deps were moved to dependencies");
+    return;
     var pkg = require(path.join(__dirname, "..", "package.json"));
     var version = pkg.dependencies["semver"] || pkg.devDependencies["semver"];
     if (!modExists("semver", version)) {

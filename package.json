@@ -56,7 +56,17 @@
     "@protobufjs/utf8": "^1.1.0",
     "@types/long": "^3.0.31",
     "@types/node": "^7.0.29",
-    "long": "^3.2.0"
+    "long": "^3.2.0",
+    "semver": "",
+    "chalk": "",
+    "glob": "",
+    "jsdoc": "",
+    "minimist": "",
+    "tmp": "",
+    "uglify-js": "",
+    "espree": "",
+    "escodegen": "",
+    "estraverse": ""
   },
   "devDependencies": {
     "benchmark": "^2.1.4",
@@ -94,17 +104,5 @@
     "vinyl-buffer": "^1.0.0",
     "vinyl-fs": "^2.4.4",
     "vinyl-source-stream": "^1.1.0"
-  },
-  "cliDependencies": [
-    "semver",
-    "chalk",
-    "glob",
-    "jsdoc",
-    "minimist",
-    "tmp",
-    "uglify-js",
-    "espree",
-    "escodegen",
-    "estraverse"
-  ]
+  }
 }
